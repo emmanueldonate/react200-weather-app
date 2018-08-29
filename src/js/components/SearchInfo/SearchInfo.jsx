@@ -79,10 +79,12 @@ export default class SearchInfo extends React.Component  {
                     onClick={this.handleSearch}
                     >Tokyo</button>
                 </div>
+                
             <div className='input-group-append'>
             <span>
             <input 
-            type='text' 
+            type='text'
+            name='name' 
             className='form-control'
             value={this.state.name}
             onChange={this.handleSearch}
