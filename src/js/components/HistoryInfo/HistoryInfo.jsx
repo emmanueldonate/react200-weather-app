@@ -16,3 +16,5 @@ export default class HistoryInfo extends React.Component {
         );
     }
 }
+
+

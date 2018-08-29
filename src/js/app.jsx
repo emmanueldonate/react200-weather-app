@@ -6,6 +6,15 @@ import HistoryInfo from './components/HistoryInfo';
 
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state = { 
+      name: [],
+    };
+  }
+
+
   render() {
     return (
       <div className='container'>
